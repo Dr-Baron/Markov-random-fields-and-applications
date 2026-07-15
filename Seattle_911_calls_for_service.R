@@ -27,7 +27,7 @@ xx = c(-122.355, -122.314); yy = c(47.589, 47.629)
 
 plot(S$Longitude, S$Latitude, xlim = xx, ylim = yy)
 points(S$Longitude, S$Latitude, xlim = xx, ylim = yy)
-lines(xx,c(1,1)*yy[1] ,lwd=3); lines(xx,c(1,1)*yy[2] ,lwd=3); lines(xx[1]*c(1,1),yy ,lwd=3); lines(xx[2]*c(1,1),yy ,lwd=3);
+lines(xx,c(1,1)*yy[1] ,lwd=3); lines(xx,c(1,1)*yy[2] ,lwd=3); lines(xx[1]*c(1,1),yy ,lwd=3); lines(xx[2]*c(1,1),yy ,lwd=3)
 
 # Grid
 Nbins = 30; DeltaX = (xx[2]-xx[1])/(Nbins); DeltaY = (yy[2]-yy[1])/(Nbins);
