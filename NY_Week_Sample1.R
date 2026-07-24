@@ -30,7 +30,7 @@ x2 = quantile(N$X,.75) + h*IQR(N$X)
 Z = as.numeric(N$Y > y1 & N$Y < y2 & N$X > x1 & N$X < x2)
 N = N[Z==1,] #Ntotal = 142340
 
-# NYimore center
+# NY center
 xx = c(-74.26,-73.70); yy = c(40.49,40.92);
 
 # Grid
